@@ -1,0 +1,66 @@
+* {
+  /* box-sizing: border-box; */
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  width: 656px;
+  height: 32px;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 2px;
+  /* padding: 5px 0px 5px 8px; */
+  position: relative;
+}
+
+.container p {
+  margin: 8px 0 0 8px;
+  display: inline-block;
+  /* vertical-align: bottom; */
+  width:500px;
+  height: 32px;
+  margin: 0;
+  padding: 5px 0 5px 8px;
+  color: #AAABAB;
+  font-size: 13px;
+}
+
+.container button {
+  width: 65px;
+  height: 32px;
+  border: 1px solid rgb(204, 204, 204);
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 0;
+  border-radius: 2px;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+}
+
+.container button:hover {
+  background-color: rgb(240, 240, 240);
+}
+
+.container button i {
+  padding: 10px;
+}
+
+/* Si no quiero border se le pone none */
+/* border-top-left-radius: 2px;
+border-bottom-left-radius;
+Cuidar con las clases  */
+/* flex: 1 crece todo su ancho disponible  */
+/* :first-of-type
+:last-of-child */
+/* Debes ser muy especifico no importa donde lo pongas
+.clase.clase  */
+/* Las clases ayudan para agregar o quitar estilos combinados con javascript */
+/* La clave en css son las clases  */
+/* Es mejor dale propiedad al papa para que sus hijos los herede */
+/* numbers only get active when parent has .to-red active class */
